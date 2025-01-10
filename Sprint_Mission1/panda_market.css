@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: "Pretendard"; /*!! import 해와야 함*/
+    font-family: "Pretendard Variable"; 
 }
 
 body {
@@ -8,6 +8,7 @@ body {
     width: 100%;
 }
 
+/* header__container */
 .header__container {
     margin: 9px 400px 10px;
     display: flex;
@@ -26,7 +27,11 @@ body {
     background-color: #3692FF;
     border-radius: 8px;
     border: solid 1px;
+    font-size: 16px;
+    font-weight: 600;
 }
+
+/* main__image__container */
 
 .main__image__container {
     display: flex;
@@ -40,7 +45,6 @@ body {
 
 
 .main__image__container p {
-    margin-right: 62px;
     margin-bottom: 32px;
     margin-top: 40px;
     font-weight: 700;
@@ -55,7 +59,9 @@ body {
     color: #F9FAFB;
     background-color: #3692FF;
     width: 357px;
-    height: 56px;;
+    height: 56px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .main__image__container img {
@@ -63,4 +69,84 @@ body {
     height: 340px;
 }
 
+.min__title {
+    font-weight: bold;
+    font-size:18px;
+    color: #3692FF;
+    margin: 0px;
+}
 
+.explanation__content {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.4;
+    color: #374151;
+}
+
+.explanation__content__margin {
+    margin-top: 12px;
+    margin-bottom: 24px;
+    margin-right: 52px;
+}
+
+.explanation__detail {
+    font-size: 24px;
+    font-weight: 500;
+    color: #374151;
+    margin:0px;
+} 
+
+
+.hot__item {
+    background-image: url("../Sprint_Mission1/img/Img_home_01.png");
+}
+
+.search {
+    background-image: url("../Sprint_Mission1/img/Img_home_02.png");
+}
+
+.register {
+    background-image: url("../Sprint_Mission1/img/Img_home_03.png");
+}
+
+.card__content__container {
+    background-repeat: no-repeat;
+    width: 988px;
+    height: 444px;  
+    background-color: #FCFCFC;
+    margin: 138px 466px;
+}
+
+.flex__container {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card__content__container__reverse {
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 988px;
+    height: 444px;   
+    background-color: #FCFCFC;
+    margin: 138px 0;
+    text-align: end;
+}
+
+.explanation__content__margin__reverse {
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.hot__item__padding {
+    padding: 103px 23.5px 103px 666.5px;
+}
+
+.search__padding {   
+    padding: 103px 657px 103px 14px;
+}
+
+.register__padding {
+    padding: 103px 7px 103px 636px;
+}
